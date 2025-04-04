@@ -92,7 +92,7 @@ Or you can launch the GUI and click "Run Scan" to get started.
 ```bat
 @echo off
 cd /d "C:\Path\To\Your\Script"
-python your_script_name.py
+python risk_analyzer.py
 ```
 
 2. Open Task Scheduler
@@ -111,6 +111,6 @@ crontab -e
 2. Add a weekly job:
 
 ```cron
-0 9 * * 1 python3 /path/to/your_script_name.py
+0 9 * * 1 python3 /path/to/risk_analyzer.py
 ```
 
